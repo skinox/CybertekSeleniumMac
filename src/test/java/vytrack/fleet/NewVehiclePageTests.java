@@ -2,13 +2,12 @@ package vytrack.fleet;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.AbstractPageBase;
 import pages.LoginPage;
 import utilities.BrowserUtils;
 import utilities.Driver;
-import vytrack.TestBase;
+import vytrack.AbstractTestBase;
 
-public class NewVehiclePageTests extends TestBase {
+public class NewVehiclePageTests extends AbstractTestBase {
     @Test
     public void verifyTitle(){
         LoginPage loginPage = new LoginPage();
